@@ -1,0 +1,79 @@
+/* Font
+=================================================================== */
+@font-face {
+    font-family: 'texgyreadventorregular';
+    src: url('fonts/texgyreadventor-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+     font-family: 'open_sansregular';
+      src:url('fonts/OpenSans-Regular-webfont.ttf') format('truetype');
+}
+
+body { font-size: 13px; 
+/*font-family: "Open Sans"; */
+/* background: url(../images/bg2.jpg) #0F1F2D no-repeat center center fixed; */
+font-family: 'open_sansregular' !important;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.top-margin { margin-top: 50px; }
+.login-page { background: #FFFFFF; 
+padding: 20px; 
+border-radius: 0px 0px 4px 4px; 
+opacity: .95;}
+.login-page-header { background: #f3f3f3; padding: 10px; 
+border-radius: 4px 4px 0px 0px; 
+text-align: center; 
+border-bottom: 1px solid #dadada;
+ font-weight: 600; 
+ color: #5c6267; 
+ opacity: .95;}
+.align-center { text-align: center; }
+.decent-margin-top { margin-top: 30px; }
+.decent-margin { margin-top: 10px; margin-bottom: 10px;  }
+
+.center-block-e{
+    float: none;
+    margin: 0 auto;
+}
+.login-alert-area { background: #FFFFFF; padding: 10px; margin: 10px;  }
+
+.error{
+	color: #ff2c34 !important;
+}
+.activate_admin  a{
+	background: #26a6de !important;
+	padding: 3px 5px 5px !important;
+	color: #fff !important;
+	border-radius: 5px;
+	text-shadow: 1px 1px 1px #1c1c1c !important;
+}
+
+.btn_bly a{
+background: #a4c739 !important;
+color: #fff !important;
+border-radius: 5px;
+padding: 3px 5px 5px !important;
+box-shadow: 2px 3px 2px #1c1c1c;
+text-shadow: 2px 3px 2px #1c1c1c;
+-webkit-transition: all 0.3s ease-in-out;
+-moz-transition: all 0.3s ease-in-out;
+ -o-transition: all 0.3s ease-in-out;
+ transition: all 0.3s ease-in-out;
+}
+
+.btn_bly:hover a{
+background: #26a6de !important;
+box-shadow: 2px 3px 2px #fff;
+color: #1c1c1c  !important;
+text-shadow: 1px 1px 1px #fff;
+}
+
+.linkys a {
+	color: #ff2c34!important;
+	
+}
